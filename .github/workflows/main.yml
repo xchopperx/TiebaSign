@@ -14,7 +14,7 @@ jobs:
       - name: '检测代码'
         uses: actions/checkout@v2
       - name: '初始化Python'
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v2
         with:
           python-version: '3.10'
       - name: '安装依赖包'
